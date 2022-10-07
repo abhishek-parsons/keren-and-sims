@@ -1,5 +1,4 @@
 .loader {
-  background-color: aliceblue;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -8,6 +7,11 @@
   grid-template-rows: 1fr;
   justify-items: center;
   align-items: center;
+  background: radial-gradient(
+    89.65% 89.65% at 50% 50%,
+    #fdfdff 0%,
+    #d6dfe4 100%
+  );
 }
 
 .main {
@@ -20,6 +24,19 @@
   grid-template-rows: 1fr;
   justify-items: center;
   align-items: center;
+}
+
+#loading-image {
+  width: 100px;
+}
+
+.loading-text {
+  font-family: "BentonSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 56px;
+  color: #207fb9;
 }
 
 body {
