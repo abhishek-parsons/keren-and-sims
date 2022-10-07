@@ -1,4 +1,4 @@
-.loader {
+#loader {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -14,8 +14,12 @@
   );
 }
 
+#keren {
+  width: 500px;
+}
+
 .main {
-  background-color: white;
+  background-color: black;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -27,7 +31,7 @@
 }
 
 #loading-image {
-  width: 100px;
+  width: 160px;
 }
 
 .loading-text {
