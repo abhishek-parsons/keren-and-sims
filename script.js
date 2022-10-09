@@ -3,4 +3,4 @@ var loader = document.getElementById("loader");
 setTimeout(function () {
   loader.classList.add("animate__animated");
   loader.classList.add("animate__fadeOut");
-}, 4000);
+}, 1000);
