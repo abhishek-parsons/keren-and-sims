@@ -8,7 +8,7 @@ setTimeout(function () {
   setTimeout(function () {
     loader.remove();
   }, 1000);
-}, 1000);
+}, 2000);
 
 function clickFace() {
   var clicked = window.localStorage.getItem("clicked");
