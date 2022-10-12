@@ -1,3 +1,5 @@
+window.localStorage.setItem("clicked", false);
+
 // hide loader after a few seconds
 var loader = document.getElementById("loader");
 setTimeout(function () {
@@ -9,6 +11,9 @@ setTimeout(function () {
 }, 1000);
 
 function clickFace() {
+  var clicked = window.localStorage.getItem("clicked");
+  console.log("open");
+  window.localStorage.setItem("clicked", true);
   //show q1
   var q1 = document.getElementsByClassName("div2")[0];
   q1.style.display = "block";
